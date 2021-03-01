@@ -20,6 +20,7 @@ git commit .
 git remote add git@github.com:BlueCoaltar/MemoApp.git
 git remote
 git push -u origin master
+git push
 
 
 //----------------------------------------
@@ -50,6 +51,11 @@ expo publish
 
 
 //----------------------------------------
+//Android emulator
+//----------------------------------------
+rr : アプリ再起動
+
+//----------------------------------------
 //ESLint
 //----------------------------------------
 //nvs use で npm のパスを通しておく必要がある
@@ -66,3 +72,13 @@ echo $env:Path
 dir env:
 Get-ChildItem env:
 Get-ChildItem env:Path
+
+
+//----------------------------------------
+//Other
+//----------------------------------------
+キャメルケース
+カーリーブラケット
+分割代入(Destructuring Assignment)
+PropTypes
+Backtick/バッククォート
