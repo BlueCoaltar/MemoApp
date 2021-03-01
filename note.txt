@@ -1,0 +1,68 @@
+//----------------------------------------
+//Git
+//----------------------------------------
+git init : Git のリポジトリ作る。プロジェクトフォルダで実行
+git status
+git status -u
+git log
+git diff
+git branch
+git add
+git commit
+git commit .
+.gitkeep : フォルダがからでも Git の対象にしたい場合
+.gitignore
+
+
+//----------------------------------------
+//GitHub
+//----------------------------------------
+git remote add git@github.com:BlueCoaltar/MemoApp.git
+git remote
+git push -u origin master
+
+
+//----------------------------------------
+//VSCode
+//----------------------------------------
+code
+code .
+
+
+//----------------------------------------
+//Node.js、NVS(Node Version Switcher)、npm(Node Package Manager)
+//----------------------------------------
+nvs --version
+nvs add 14.15.0
+nvs use 14.15.0 : これをやらないと必要なパスが通らない
+node --version
+npm install -g expo-cli
+
+
+//----------------------------------------
+//Expo
+//----------------------------------------
+expo init
+expo start : アプリを起動、プロジェクトフォルダで実行
+expo whoami
+expo login
+expo publish
+
+
+//----------------------------------------
+//ESLint
+//----------------------------------------
+//nvs use で npm のパスを通しておく必要がある
+npm show eslint
+npm install --save-dev eslint@7.21.0 : package.json を書き換えるので閉じる必要ある
+npx eslint --init
+
+
+//----------------------------------------
+//Windows PowerShell
+//----------------------------------------
+echo $env:[環境変数名]
+echo $env:Path
+dir env:
+Get-ChildItem env:
+Get-ChildItem env:Path
