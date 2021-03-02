@@ -83,4 +83,5 @@ Get-ChildItem env:Path
 PropTypes
 Backtick/バッククォート
 @expo/vector-icons：https://icons.expo.fyi/
+icomoon：https://icomoon.io/
 
