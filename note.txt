@@ -62,7 +62,7 @@ rr : アプリ再起動
 npm show eslint
 npm install --save-dev eslint@7.21.0 : package.json を書き換えるので閉じる必要ある
 npx eslint --init
-
+npx eslint ./src/**/*.jsx
 
 //----------------------------------------
 //Windows PowerShell
@@ -82,3 +82,5 @@ Get-ChildItem env:Path
 分割代入(Destructuring Assignment)
 PropTypes
 Backtick/バッククォート
+@expo/vector-icons：https://icons.expo.fyi/
+
