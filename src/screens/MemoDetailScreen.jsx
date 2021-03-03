@@ -6,7 +6,7 @@ import {
 import AppBar from '../components/AppBar';
 import CircleButton from '../components/CircleButton';
 
-export default function MemoListScreen() {
+export default function MemoDetailScreen() {
   return (
     <View style={styles.container}>
       <AppBar />

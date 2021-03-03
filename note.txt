@@ -43,6 +43,7 @@ npm install -g expo-cli
 //----------------------------------------
 //Expo
 //----------------------------------------
+//nvs use でパスを通しておく必要がある
 expo init
 expo start : アプリを起動、プロジェクトフォルダで実行
 expo whoami
@@ -58,7 +59,7 @@ rr : アプリ再起動
 //----------------------------------------
 //ESLint
 //----------------------------------------
-//nvs use で npm のパスを通しておく必要がある
+//nvs use でパスを通しておく必要がある
 npm show eslint
 npm install --save-dev eslint@7.21.0 : package.json を書き換えるので閉じる必要ある
 npx eslint --init
