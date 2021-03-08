@@ -77,6 +77,11 @@ Get-ChildItem env:Path
 
 
 //----------------------------------------
+//React Native
+//----------------------------------------
+
+
+//----------------------------------------
 //Other
 //----------------------------------------
 キャメルケース
@@ -86,4 +91,7 @@ PropTypes
 Backtick/バッククォート
 @expo/vector-icons：https://icons.expo.fyi/
 icomoon：https://icomoon.io/
+コールバック関数
+.then()
+.catch()
 
