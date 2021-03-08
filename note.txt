@@ -46,6 +46,7 @@ npm install -g expo-cli
 //nvs use でパスを通しておく必要がある
 expo init
 expo start : アプリを起動、プロジェクトフォルダで実行
+expo start -c : キャッシュクリアしてスタート
 expo whoami
 expo login
 expo publish
