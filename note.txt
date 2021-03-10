@@ -92,6 +92,9 @@ Backtick/バッククォート
 @expo/vector-icons：https://icons.expo.fyi/
 icomoon：https://icomoon.io/
 コールバック関数
+React Hooks
 .then()
 .catch()
+サイドエフェクト(副作用)
+
 
