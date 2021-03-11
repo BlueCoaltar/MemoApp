@@ -2,6 +2,7 @@ import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator, CardStyleInterpolators } from '@react-navigation/stack';
 import firebase from 'firebase';
+//import ignoreWarnings from 'react-native-ignore-warnings';
 
 import MemoListScreen from './src/screens/MemoListScreen';
 import MemoDetailScreen from './src/screens/MemoDetailScreen';
@@ -19,6 +20,8 @@ if (firebase.apps.length === 0) {
 }
 
 const Stack = createStackNavigator();
+
+// ignoreWarnings('Setting a timer');
 
 export default function App() {
   return (
