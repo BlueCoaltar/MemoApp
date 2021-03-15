@@ -16,7 +16,7 @@ export default function Icon(props) {
   return <CustomIcon name={name} size={size} color={color} style={{ lineHeight: size - 1 }} />;
 }
 
-Icon.protoTypes = {
+Icon.propTypes = {
   name: oneOf(['plus', 'delete', 'pencil', 'check']).isRequired,
   size: number,
   color: string,
